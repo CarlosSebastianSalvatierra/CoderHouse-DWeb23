@@ -1,0 +1,143 @@
+@media (min-width: 350px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+.carrousel img {
+  height: auto;
+  width: 60%;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+.hero img {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #66A8DA;
+}
+
+.image-container {
+  background-color: #66A8DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img-informacion {
+  padding: 2rem;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2rem;
+}
+
+.text-container {
+  background-color: #66A8DA;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.text-block {
+  margin: 2rem;
+  padding: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: large;
+  line-height: 1.6;
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  .text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .text-block p {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+}
+.sub-title {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.pulmon-svg {
+  width: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  fill: #66A8DA;
+}
+
+.servicios {
+  margin-top: 3rem;
+  background-color: #66A8DA;
+}
+
+.contacto-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacto-whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: double;
+  color: #66A8DA;
+  border: 1rem #333eFF;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #66A8DA;
+}
+
+/*# sourceMappingURL=styles.css.map */
