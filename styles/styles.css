@@ -20,6 +20,14 @@ body {
     margin: 0;
     padding: 0;
 }
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+ .card .btn:hover {
+            background-color: #ffc107; /* Cambiar al color deseado */
+            border-color: #ffc107; /* Cambiar al color deseado */
+        }
 
 .hero {
     display: flex;
@@ -72,10 +80,21 @@ body {
     padding: 4rem;
     text-align: center;
 }
+.text-versus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    padding: 1.5rem;
+    gap: 2rem ;
+    flex-direction: row;
+    text-align: center;
+    background-color:#66A8DA;
+}
 
 .text-block {
     margin: 2rem;
-    padding: 1rem;
+    padding: 1.5em;
     font-family: 'Ubuntu', sans-serif;
     font-size: large;
     line-height: 1.6;
@@ -95,6 +114,21 @@ body {
             max-width: 100%;
         }
     }
+}
+
+.lista-desordenada {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    padding: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    line-height: 1.6;
+    margin-top: 2rem;
+
 }
 
 
@@ -119,6 +153,19 @@ body {
     margin-right: 2rem;
     fill: #66A8DA;
 }
+
+.info-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: #66A8DA;
+}
+
 
 .servicios {
     margin-top: 3rem;
